@@ -4,7 +4,7 @@ body * {
     font-family: 'Syne', sans-serif;
 }
 
-header.header{
+header.header {
     visibility:hidden;
 }
 
@@ -14,3 +14,137 @@ header.header{
     color: black;
     background-color: white !important;
  }
+
+.rencontre {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    margin: 30px auto;
+    width: 20%;
+}
+
+.wpcf7-text, .wpcf7-email, .wpcf7-textarea {
+    padding: 20px;
+    border-radius: 5px !important;
+    width: 100%;
+    border: transparent;
+    margin-top: 10px;
+}
+
+.wpcf7-submit {
+    padding: 10px;
+    border-radius: 5px !important;
+    width: 50%;
+    border: transparent;
+    font-size: 14px !important;
+    color: white;
+    padding: 15px 0;
+    margin: 1em 25% 0;
+}
+
+.post-46 {
+    background: #3B8E46;
+}
+
+.form_commande {
+    width: 50%;
+    display: flex;
+}
+
+.fruit_commande {
+    display: flex;
+    justify-content: space-between;
+}
+
+input.number {
+    width: 40%;
+    border-radius: 5px 0px 0px 5px;
+    border: transparent;
+}
+
+button.plus {
+    border: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+    border-radius: 0px 5px 0px 0px;
+}
+
+button.moins {
+    border: transparent;
+    color: white;
+    border-radius: 0px 0px 5px 0px;
+}
+
+button.ok {
+    padding: 10px;
+    width: 50%;
+    border-radius: 5px;
+    color: white;
+    border: transparent;
+    font-size: 17px;
+}
+
+.boutons_modif {
+    display: grid;
+}
+
+.form {
+    color: white;
+    display: flex;
+    width: 50%;
+    margin: 30px auto;
+}
+
+.info {
+    border-right: solid 1px white;
+    padding-right: 30px;
+}
+
+.info h2 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.livraison {
+    padding-left: 30px;
+}
+
+.livraison h2 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.command {
+    width: 20%;
+    margin: 20px auto;
+}
+
+.form p label input{
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 360px) {
+    .form {
+        width: 50%;
+        flex-direction: column;
+        border: none;
+        padding: 0 !important;
+    }
+    
+    .info {
+        border-right: none;
+        padding: 0;
+    }
+
+    .livraison {
+        padding: 0;
+    }
+
+    .command  {
+        width: 100%;
+    }
+
+    .rencontre {
+        width: 50%;
+    }
+}

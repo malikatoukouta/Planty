@@ -5,7 +5,35 @@ body * {
 }
 
 header.header {
-    visibility:hidden;
+    visibility: hidden;
+}
+
+.elementor-section.elementor-top-section.elementor-element.elementor-element-ca7fcad.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default .elementor-container.elementor-column-gap-default {
+    border-radius: 0 0 40% 40%;
+    background-color: #eded;
+    height: 50px;
+}
+
+.elementor-section.elementor-top-section.elementor-element.elementor-element-7110247.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default .elementor-container.elementor-column-gap-default {
+    border-radius: 0 0 40% 40%;
+    background-color: #eded;
+    height: 30px;
+}
+
+.elementor-section.elementor-top-section.elementor-element.elementor-element-25d0623.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default .elementor-container.elementor-column-gap-default {
+    border-radius: 0 0 50% 50%;
+    background-color: #eded;
+    height: 50px;
+}
+
+.hfe-nav-menu li.menu-item {
+    margin-right: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.hfe-nav-menu li.menu-item a {
+    color: black;
 }
 
 #site-footer {
